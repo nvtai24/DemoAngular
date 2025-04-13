@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	padding: 3rem 0;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.btn-main {
+	background-image: linear-gradient(to right, #D434B0, #8029FC);
+	padding: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.main {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.header-logo img {
+	width: 50px;
+}
+
+.group-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 1px 1px 10px 0px rgb(0, 0, 0, .15);
+	padding: .6rem 1rem;
+}
+
+.group-navigation {
+	display: flex;
+	column-gap: 1rem;
+}
+
+.nav-button {
+	background-image: linear-gradient(to right, #D434B0, #8029FC);
+	padding: .5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.nav-button:hover {
+	background-image: linear-gradient(to right, #7b50b6, #38dd38);
+}

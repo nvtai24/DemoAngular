@@ -1,0 +1,39 @@
+.wrapper-cart {
+	background-image: linear-gradient(to right, #D434B0, #8029FC);
+	height: calc(100vh - 70px);
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+	margin-bottom: 10px;
+}
+
+.form-control input {
+	width: 100%;
+	bottom: none;
+	outline: none;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgb(172, 187, 201);
+}
+
+.form-control label {
+	font-weight: bold;
+	color: #fff;
+}
+
+.myForm {
+	margin: auto;
+	width: 70%;
+	background: #0dcf81;
+	padding: 20px;
+	border: 5px solid #615dd4;
+	border-radius: 10px;
+}
+
+.nav-button {
+	width: 100% !important;
+	padding: 10px;
+}
